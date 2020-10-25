@@ -18,7 +18,7 @@ jobs:
         submodules: 'true'
     - uses: docker/build-push-action@v1.1.1
       with:
-        cache_froms: docker.pkg.github.com/zauddelig/Build-The-First-Confidential-Contract/sw:latest
+        cache_froms: docker.pkg.github.com/zauddelig/build-the-first-confidential-contract/sw:latest
         username: ${{ secrets.PACKAGE_MANAGER_USERNAME }}
         password: ${{ secrets.PACKAGE_MANAGER_TOKEN }}
         registry: docker.pkg.github.com
@@ -35,7 +35,7 @@ jobs:
         submodules: 'true'
     - uses: docker/build-push-action@v1.1.1
       with:
-        cache_froms: docker.pkg.github.com/zauddelig/Build-The-First-Confidential-Contract/hw:latest
+        cache_froms: docker.pkg.github.com/zauddelig/build-the-first-confidential-contract/hw:latest
         username: ${{ secrets.PACKAGE_MANAGER_USERNAME }}
         password: ${{ secrets.PACKAGE_MANAGER_TOKEN }}
         registry: docker.pkg.github.com
