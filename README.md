@@ -1,6 +1,8 @@
 # Advise
 Cloned from https://github.com/Phala-Network/phala-blockchain
 
+Partecipating to: https://gitcoin.co/issue/Phala-Network/hello-world-by-polkadot/2/100023947
+
 # Phala Blockchain
 
 <img align="right" width="320" src="docs/static/web3 foundation_grants_badge_black.svg" alt="Funded by the web3 foundation">
